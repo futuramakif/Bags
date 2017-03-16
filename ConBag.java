@@ -12,9 +12,10 @@ public class ConBag implements Bag
     bagArray = new String[100];
   }
   
-  public ConBag( int p )
+  public ConBag( int size )
   {
-    bagArray = new String[p];
+    bagArray = new String[size];
+    int count = 0;
   }
   
   public ConBag ( String[] par )
@@ -53,8 +54,16 @@ public class ConBag implements Bag
     ASCIIDataFile tokens;
     tokens = new ASCIIDataFile();
     
-    item = tokens.readString();
-    int numTokens = tokens.readInt();
+    
+    if (count >= item.length)
+    {
+      throw new NoSpaceException();
+    } else
+    {
+      item = tokens.readString();
+      int numTokens = tokens.readInt();
+    }
+
   }
   
     public static void main ( String[] args ) 
