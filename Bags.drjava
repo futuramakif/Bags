@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <drjava version="drjava-20160913-225446">
-  <project autorefresh="false" build="" manifest="" root="" work="">
+  <project autorefresh="false" build="" main="" manifest="" root="" work="">
     <createjar file="Bags.jar" flags="1"/>
     <source>
-      <file active="true" name="ConBag.java" package="Bags" timestamp="15-Mar-2017 19:53:24">
-        <select from="315" to="315"/>
-        <scroll column="0" row="0"/>
+      <file active="true" name="ConBag.java" package="Bags" timestamp="15-Mar-2017 22:20:05">
+        <select from="868" to="868"/>
+        <scroll column="293" row="0"/>
       </file>
-      <file name="Bag.java" package="Bags" timestamp="15-Mar-2017 19:24:20">
-        <select from="315" to="315"/>
-        <scroll column="0" row="0"/>
+      <file name="NoSpaceException.java" package="Bags" timestamp="15-Mar-2017 22:10:17">
+        <select from="868" to="868"/>
+        <scroll column="293" row="0"/>
+      </file>
+      <file name="NoItemException.java" package="Bags" timestamp="15-Mar-2017 22:11:18">
+        <select from="868" to="868"/>
+        <scroll column="293" row="0"/>
+      </file>
+      <file name="Bag.java" package="Bags" timestamp="15-Mar-2017 22:15:37">
+        <select from="868" to="868"/>
+        <scroll column="293" row="0"/>
       </file>
     </source>
     <included/>
@@ -17,6 +25,8 @@
     <collapsed/>
     <classpath>
       <file absolute="false" name="Bags.jar"/>
+      <file absolute="false" name="../../../../../DrJava/BasicIO.jar"/>
+      <file absolute="false" name="../../../../../DrJava/Media.jar"/>
     </classpath>
     <breakpoints/>
     <watches/>

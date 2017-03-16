@@ -1,8 +1,9 @@
 package Bags;
 
+import BasicIO.*;
+
 public class ConBag implements Bag
 {
-  public ASCIIDataFile
   String red, gold, purple, blue, orange, green, white;
   String[] bagArray;
   
@@ -49,7 +50,11 @@ public class ConBag implements Bag
     
   public void add( String item )
   {
+    ASCIIDataFile tokens;
+    tokens = new ASCIIDataFile();
     
+    item = tokens.readString();
+    int numTokens = tokens.readInt();
   }
   
     public static void main ( String[] args ) 

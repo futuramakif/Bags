@@ -13,8 +13,6 @@ package Bags;
   * @version 1.1 (Feb. 2017)                                                     */
 
 public interface Bag {
-  
-  String red, gold, purple, blue, orange, green, white;
     
     
     /** This method adds an item (String) to the bag. It fails if there is no more

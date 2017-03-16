@@ -13,6 +13,7 @@ package Bags;
   * @version 1.1 (Feb. 2017)                                                     */
 
 public interface Bag {
+
     
     
     /** This method adds an item (String) to the bag. It fails if there is no more
